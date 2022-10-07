@@ -1,5 +1,4 @@
 -- To check NUll values in the dataset
--- SELECT column_names. FROM table_name. WHERE column_name IS NULL;
 SELECT order_ID
 FROM orders_data
 WHERE order_ID IS NULL;
